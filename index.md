@@ -1,5 +1,3 @@
-# SOS Platform
-
 Offline-first diagnostics for SQL Server and Windows.
 
 ---
