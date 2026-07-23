@@ -1,1 +1,1 @@
-# sos-platform-site
+# SOSPlatform
