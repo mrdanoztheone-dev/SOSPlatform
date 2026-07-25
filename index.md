@@ -1,12 +1,12 @@
-Offline-first diagnostics for SQL Server and Windows.
-
----
+**Offline-first diagnostics for SQL Server and Windows.**
 
 ## Welcome
 
-SOS Platform is an investigation platform that transforms diagnostic evidence into reusable knowledge.
+SOS Platform is a case-based platform that transforms diagnostic evidence into reusable operational knowledge.
 
-Rather than analysing production systems directly, SOS Platform works with collected evidence that can be investigated, shared and analysed safely offline.
+Rather than analysing production systems directly, SOS Platform works with collected evidence that can be investigated, shared, analysed, and—where appropriate—used to guide safe operational actions.
+
+Cases combine investigative and operational building blocks into an iterative process that captures both technical evidence and the decisions made along the way.
 
 ## Read more
 
