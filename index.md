@@ -74,7 +74,7 @@ Recent entry:
 SOS Platform is still evolving, but I’m always interested in hearing from people working with SQL Server, diagnostics, technical operations, or similar ideas.
 
 [**Contact me**](mailto:sosdaniel09@gmail.com)
-
+[Privacy](/privacy/)
 ---
 
 <small>
