@@ -1,8 +1,7 @@
 ---
-
 layout: default
 title: SOS Platform
--------------------
+---
 
 # SOS Platform
 
