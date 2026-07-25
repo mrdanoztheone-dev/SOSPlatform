@@ -11,5 +11,6 @@ Rather than analysing production systems directly, SOS Platform works with colle
 ## Read more
 
 - [Why did I start building SOS Platform?](articles/why-did-i-start-building-sos-platform.md)
+- [The Case Being..](articles/the-case-being.md)
 
 More articles will be added as the project evolves.
