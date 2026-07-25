@@ -82,3 +82,6 @@ SOS Platform is still evolving, but I’m always interested in hearing from peop
 SOS Platform — Built on your Expertise.
 </small>
 **Offline-first diagnostics for SQL Server and Windows.**
+
+<script data-goatcounter="https://sosplatform.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
