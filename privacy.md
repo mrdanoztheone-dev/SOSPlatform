@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SOS Platform
+title: Privacy
 ---
 
 # Privacy
