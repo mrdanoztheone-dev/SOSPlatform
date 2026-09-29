@@ -23,6 +23,7 @@ if ([string]::IsNullOrWhiteSpace($slug)) {
 }
 
 $datePrefix = $Date.ToString('yyyy-MM-dd')
+$publicationTime = if ($Date.TimeOfDay -eq [TimeSpan]::Zero) { $Date.Date.AddHours(12) } else { $Date }
 $postsDirectory = Join-Path $repositoryRoot '_posts'
 $postPath = Join-Path $postsDirectory "$datePrefix-$slug.md"
 if (Test-Path -LiteralPath $postPath) {
@@ -53,7 +54,7 @@ $frontMatter = @(
     '---'
     'layout: update'
     "title: '$safeTitle'"
-    "date: $($Date.ToString('yyyy-MM-dd HH:mm:ss zzz'))"
+    "date: $($publicationTime.ToString('yyyy-MM-dd HH:mm:ss zzz'))"
     "kind: '$safeKind'"
     "summary: '$safeSummary'"
 ) + $imageFrontMatter + @(

@@ -1,7 +1,7 @@
 ---
 layout: update
 title: 'From WinForms screens to hosted pages'
-date: 2026-09-29 00:00:00 +02:00
+date: 2026-09-29 12:00:00 +02:00
 kind: 'Story'
 summary: 'SOS Studio is gradually moving selected experiences into hosted pages, making the platform easier to evolve and opening the door to broader access.'
 ---
