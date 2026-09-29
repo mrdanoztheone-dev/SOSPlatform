@@ -62,7 +62,20 @@ The platform is under active development.
 
 The development journal documents the ideas, experiments, architectural decisions, and occasional refactors behind SOS Platform.
 
-Recent entry:
+### Latest updates
+
+{% if site.posts.size > 0 %}
+{% for post in site.posts limit: 5 %}
+- **{{ post.date | date: "%B %-d, %Y" }}** — [{{ post.title }}]({{ post.url | relative_url }}){% if post.summary %}<br>
+  {{ post.summary }}{% endif %}
+{% endfor %}
+
+[View all updates](updates.html)
+{% else %}
+Project updates will appear here as they are published.
+{% endif %}
+
+### Stories
 
 - [Why did I start building SOS Platform?](articles/why-did-i-start-building-sos-platform.md)
 - [The Case Being..](articles/the-case-being.md)
