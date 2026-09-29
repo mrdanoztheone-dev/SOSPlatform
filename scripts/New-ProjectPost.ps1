@@ -59,8 +59,6 @@ $frontMatter = @(
 ) + $imageFrontMatter + @(
     '---'
     ''
-    $Summary
-    ''
     '## What changed'
     ''
     'Write the update here.'
